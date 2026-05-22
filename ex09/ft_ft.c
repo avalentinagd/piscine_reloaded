@@ -5,25 +5,25 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: angalleg <angalleg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/19 20:56:50 by angalleg          #+#    #+#             */
-/*   Updated: 2026/05/19 21:33:40 by angalleg         ###   ########.fr       */
+/*   Created: 2026/05/22 18:21:56 by angalleg          #+#    #+#             */
+/*   Updated: 2026/05/22 18:28:31 by angalleg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-void    ft_ft(int *nbr)
+// #include <stdio.h>
+// #include <unistd.h>
+
+void	ft_ft(int *nbr)
 {
-    *nbr = 42;
+	*nbr = 42;
 }
 
-int main(void)
-{
-    int c;
-    
-    c = 0;
-    printf("", &c);
-    write(1, &c, 1);
-    write(1, "\n", 1);
-    ft_ft(&c);
-    printf("", &c);
-}
+// int main(void)
+// {
+//     int i;
+//     i = 0;
+//     printf("%d", i);
+//     write(1, "\n", 1);
+//     ft_ft(&i);
+//     printf("%d", i);
+// }

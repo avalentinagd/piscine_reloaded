@@ -6,12 +6,11 @@
 /*   By: angalleg <angalleg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/22 18:21:56 by angalleg          #+#    #+#             */
-/*   Updated: 2026/05/22 18:28:31 by angalleg         ###   ########.fr       */
+/*   Updated: 2026/05/22 20:24:45 by angalleg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // #include <stdio.h>
-// #include <unistd.h>
 
 void	ft_ft(int *nbr)
 {
@@ -23,7 +22,7 @@ void	ft_ft(int *nbr)
 //     int i;
 //     i = 0;
 //     printf("%d", i);
-//     write(1, "\n", 1);
+//     printf("%s", "\n");
 //     ft_ft(&i);
 //     printf("%d", i);
 // }

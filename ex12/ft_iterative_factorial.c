@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 // #include <stdio.h>
-// #include <unistd.h>
 
 int	ft_iterative_factorial(int nb)
 {
@@ -37,10 +36,9 @@ int	ft_iterative_factorial(int nb)
 // int main(void)
 // {
 //     int fact;
-
 //     fact = -2;
 //     printf("%d", fact);
-//     write(1, "\n", 1);
+//     printf("%s", "\n");
 //     fact = ft_iterative_factorial(fact);
 //     printf("%d", fact);
 //     return (0);

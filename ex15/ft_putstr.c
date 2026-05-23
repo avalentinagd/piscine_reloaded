@@ -1,31 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: angalleg <angalleg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/18 22:19:29 by angalleg          #+#    #+#             */
-/*   Updated: 2026/05/23 23:58:57 by angalleg         ###   ########.fr       */
+/*   Created: 2026/05/23 20:50:52 by angalleg          #+#    #+#             */
+/*   Updated: 2026/05/24 00:01:30 by angalleg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_putchar(char c);
 
-void	ft_print_alphabet(void)
+void	ft_putstr(char *str)
 {
-	char	c;
-
-	c = 'a';
-	while (c <= 'z')
+	while (*str)
 	{
-		ft_putchar(c);
-		c++;
+		ft_putchar(*str);
+		str++;
 	}
 }
 
-// int	main(void)
-// {
-//     ft_print_alphabet();
-//     return(0);
-// }
+//int	main(void)
+//{
+//	ft_putstr("Hola, como estas?");
+//	return (0);
+//}

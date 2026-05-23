@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 // #include <stdio.h>
-// #include <unistd.h>
 
 void	ft_swap(int *a, int *b)
 {
@@ -30,7 +29,7 @@ void	ft_swap(int *a, int *b)
 //     f = 3;
 //     printf("%d", e);
 //     printf("%d", f);
-//     write(1, "/n", 1);
+//     printf("%s", "\n");
 //     ft_swap(&e, &f);
 //     printf("%d", e);
 //     printf("%d", f);

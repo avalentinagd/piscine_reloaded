@@ -6,16 +6,11 @@
 /*   By: angalleg <angalleg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/18 21:51:21 by angalleg          #+#    #+#             */
-/*   Updated: 2026/05/18 22:24:40 by angalleg         ###   ########.fr       */
+/*   Updated: 2026/05/23 23:59:47 by angalleg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+void	ft_putchar(char c);
 
 void	ft_print_numbers(void)
 {
